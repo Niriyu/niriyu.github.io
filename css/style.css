@@ -1,0 +1,84 @@
+/* Global */
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+/* Sections */
+.weird {
+    perspective: 15px;
+    transform: rotateX(4deg) rotateY(4deg);
+    transform-style: preserve-3d;
+}
+section {
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing:border-box;
+}
+
+/* Taille textes */
+.all h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+}
+.all h2 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.all h3 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* Margins et Paddings */
+.pt-8 {
+    padding-top: 80px;
+}
+.pt-10 {
+    padding-top: 90px;
+}
+.mx-80{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.mx-120{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.mx-400{
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+
+/* About */
+.about {
+    width: 100%;
+    height: auto;
+
+}
+.profile-img {
+    width:10%;
+    height:auto;
+    border-radius: 50%;
+}
+.icons li {
+    font-size: 24px;
+    color: blue;
+}
+.nowrap {
+    width: 100%;
+}
+.introduction {
+    text-align: justify;
+}
+
+/* Expérience */
+
+
