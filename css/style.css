@@ -1,23 +1,34 @@
 /* Global */
-html, body {
-    margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
+html {
+    scroll-behavior: smooth;
 }
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
 /* Sections */
-.weird {
-    perspective: 15px;
+/* .weird {
+    perspective: 0px;
     transform: rotateX(4deg) rotateY(4deg);
     transform-style: preserve-3d;
-}
+    filter: blur(0.4px);
+} */
 section {
     display: block;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     padding: 60px;
     padding-left: 120px;
-    box-sizing:border-box;
+    box-sizing: border-box;
+}
+.footer-section {
+    height: 70% !important;
+    padding-bottom: 0px !important;
 }
 
 /* Taille textes */
@@ -25,60 +36,138 @@ section {
     font-family: montserrat, sans-serif;
     font-weight: 800;
 }
+
 .all h2 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
+
 .all h3 {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
+.all p,
+.all a,
+.all button {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+}
+.title {
+    font-family: montserrat, sans-serif !important;
+    font-weight: 800 !important;
+}
+
 /* Margins et Paddings */
 .pt-8 {
     padding-top: 80px;
 }
+
 .pt-10 {
     padding-top: 90px;
 }
-.mx-80{
+
+.mx-80 {
     margin-right: 80px;
     margin-left: 80px;
 }
-.mx-120{
+
+.mx-120 {
     margin-right: 120px;
     margin-left: 120px;
 }
-.mx-400{
+
+.mx-400 {
     margin-right: 400px;
     margin-left: 400px;
 }
 
 
 /* About */
-.about {
-    width: 100%;
-    height: auto;
-
-}
 .profile-img {
-    width:10%;
-    height:auto;
+    width: 10%;
+    height: auto;
     border-radius: 50%;
 }
+
 .icons li {
     font-size: 24px;
     color: blue;
 }
+
 .nowrap {
     width: 100%;
 }
+
 .introduction {
     text-align: justify;
 }
 
 /* Expérience */
 
+/* Contact */
+.form-control {
+    display: block;
+    border-radius: 30px !important;
+    width: 100% !important;
+    height: 60px !important;
+    padding: 10px 30px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #454360 !important;
+    background-color: #FFF !important;
+    background-image: none !important;
+    border: 0 !important;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
 
+.form-control:focus {
+    outline: 0;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #AEACCA;
+}
+
+.form-control::placeholder {
+    color: #AEACCA;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.input-group-addon {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.bouton {
+    border-radius: 30px !important;
+    color: #FFF !important;
+    background: #727cf5 !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    -webkit-transform: perspective(1px) translateZ(0) !important;
+    transform: perspective(1px) translateZ(0) !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden !important;
+    line-height: 1 !important;
+    padding: 12px 32px !important;
+    position: relative !important;
+}

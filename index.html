@@ -6,13 +6,15 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/timeline.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://use.typekit.net/ryc1kmc.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body class="weird all">
-    <div class="header sticky-top">
+    <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Nolwenn MAUDUIT</a>
+                <a class="navbar-brand title" href="#">Nolwenn MAUDUIT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,13 +22,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#about">Accueil</a>
+                            <a class="nav-link js-scroll-into-about" href="#about">Accueil</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#experience">Expérience</a>
+                            <a class="nav-link" href="#experience">Expériences</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#formation">Formation</a>
+                            <a class="nav-link" href="#formation">Formations</a>
                         </li>
                         <li class="nav-item px-4">
                             <a class="nav-link" href="#competencies">Compétences</a>
@@ -38,8 +40,8 @@
                 </div>
             </div>
         </nav>
-    </div>
-    <section id="about" class="about">
+    </header>
+    <section id="about">
         <div class="d-flex justify-content-center pt-10">
             <img src="images/moi.jpeg" class="profile-img" />
         </div>
@@ -80,103 +82,32 @@
         </div>
         <div class="container mt-4">
             <div class="row">
-                <div class="col-12">
-                    <!-- Timeline Area-->
-                    <div class="apland-timeline-area">
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                                <p>Near Future</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Updated 5.0</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-archive" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Fixed bug</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Reach 1k Users</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                                <p>2020</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Updated 4.4.0</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Fixed bug</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                                <p>2019</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-id-card" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Updated 4.0</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Fixed bug</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
-                                        <div class="timeline-icon"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
-                                        <div class="timeline-text">
-                                            <h6>Reach 500 Users</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="col-md-12">
+                    <div class="">
+                        <div class="card-body">
+                            <div id="content">
+                                <ul class="timeline">
+                                    <li class="event" data-date="juil. 2017 - août 2017">
+                                        <h3>Employée de restauration @ EKILIBRE</h3>
+                                        <h4>Aubergenville</h4>
+                                    </li>
+                                    <li class="event" data-date="mai 2018 - août 2018">
+                                        <h3>Employée de restauration @ EKILIBRE</h3>
+                                        <h4>Aubergenville</h4>
+                                    </li>
+                                    <li class="event" data-date="sept. 2018 - août 2019">
+                                        <h3>Chargée de mission Pôle Communication </br>@ Association DeVinci Partners</h3>
+                                        <h4>Courbevoie</h4>
+                                    </li>
+                                    <li class="event" data-date="sept. 2019 - mars 2020">
+                                        <h3>Responsable Pôle Communication </br>@ Association DeVinci Partners</h3>
+                                        <h4>Courbevoie</h4>
+                                    </li>
+                                    <li class="event" data-date="sept. 2019 - mars 2020">
+                                        <h3>Digital Executive @ Fagron France</h3>
+                                        <h4>Thiais</h4>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -184,9 +115,119 @@
             </div>
         </div>
     </section>
+    <section id="formation">
+        <div class="d-flex icons justify-content-center">
+            <h2>Mes formations :</h2>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="">
+                        <div class="card-body">
+                            <div id="content">
+                                <ul class="timeline">
+                                    <li class="event" data-date="sept. 2015 - juil. 2018">
+                                        <h3>Baccalauréat Économique et Social</h3>
+                                        <h4>Lycée ...</h4>
+                                    </li>
+                                    <li class="event" data-date="sept. 2018 - août 2021">
+                                        <h3>IIM - Institut de l'internet et du multimédia</h3>
+                                        <h4>Paris</h4>
+                                        <p>Titre RNCP de niveau 6 Chef de projet digital, Communication Digitale & E-Business</p>
+                                    </li>
+                                    <li class="event" data-date="sept. 2021 - août 2023">
+                                        <h3>IIM - Institut de l'internet et du multimédia</h3>
+                                        <h4>Paris</h4>
+                                        <p>Master Digital marketing & Data analytics, Data & Marketing</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="competencies">
+        <div class="d-flex icons justify-content-center">
+            <h2>Mes compétences :</h2>
+        </div>
+        <div class="d-flex justify-content-evenly pt-10">
+           
+        </div>
+    </section>
+    <section id="contact" class="footer-section">
+        <div class="d-flex icons justify-content-center">
+            <h2>Me contacter :</h2>
+        </div>
+        <div class="container pt-4">
+			
+			<!-- section title -->			
+			<div class="row">
+			
+				<div class="col-md-12">
+					<!-- Contact Form -->
+					<form id="contact-form" class="contact-form mt-6" method="post">
+						
+						<div class="messages"></div>
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Votre nom" required="required">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Adresse email" required="required">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Objet" required="required">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+					
+							<div class="column col-md-12">
+								<div class="form-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required"></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						<button type="submit" name="submit" id="submit" value="Submit" class="btn bouton">Envoyer</button>
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+    </section>
 </body>
+<footer>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#">© Nolwenn MAUDUIT - 2022</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#">Mentions légales</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</footer>
 <script src="https://kit.fontawesome.com/5ce47af1ec.js" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </html>
