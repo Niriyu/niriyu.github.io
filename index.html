@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/timeline.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://use.typekit.net/ryc1kmc.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body class="weird all">
+<body class="all" id="toggle">
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -80,7 +80,7 @@
         <div class="d-flex icons justify-content-center">
             <h2>Mes expériences professionnelles :</h2>
         </div>
-        <div class="container mt-4">
+        <div class="container mt-4 section-timeline">
             <div class="row">
                 <div class="col-md-12">
                     <div class="">
@@ -96,7 +96,8 @@
                                         <h4>Aubergenville</h4>
                                     </li>
                                     <li class="event" data-date="sept. 2018 - août 2019">
-                                        <h3>Chargée de mission Pôle Communication </br>@ Association DeVinci Partners</h3>
+                                        <h3>Chargée de mission Pôle Communication </br>@ Association DeVinci Partners
+                                        </h3>
                                         <h4>Courbevoie</h4>
                                     </li>
                                     <li class="event" data-date="sept. 2019 - mars 2020">
@@ -119,7 +120,7 @@
         <div class="d-flex icons justify-content-center">
             <h2>Mes formations :</h2>
         </div>
-        <div class="container mt-4">
+        <div class="container mt-4 section-timeline">
             <div class="row">
                 <div class="col-md-12">
                     <div class="">
@@ -133,7 +134,8 @@
                                     <li class="event" data-date="sept. 2018 - août 2021">
                                         <h3>IIM - Institut de l'internet et du multimédia</h3>
                                         <h4>Paris</h4>
-                                        <p>Titre RNCP de niveau 6 Chef de projet digital, Communication Digitale & E-Business</p>
+                                        <p>Titre RNCP de niveau 6 Chef de projet digital, Communication Digitale &
+                                            E-Business</p>
                                     </li>
                                     <li class="event" data-date="sept. 2021 - août 2023">
                                         <h3>IIM - Institut de l'internet et du multimédia</h3>
@@ -149,67 +151,122 @@
         </div>
     </section>
     <section id="competencies">
-        <div class="d-flex icons justify-content-center">
+        <div class="d-flex justify-content-center">
             <h2>Mes compétences :</h2>
         </div>
-        <div class="d-flex justify-content-evenly pt-10">
-           
+        <div class="row mt-4 mx-100">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Suite Office</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Suite Adobe</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="row mt-4 mx-100">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Méthodes Agiles</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Google Analytics</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
     <section id="contact" class="footer-section">
         <div class="d-flex icons justify-content-center">
             <h2>Me contacter :</h2>
         </div>
         <div class="container pt-4">
-			
-			<!-- section title -->			
-			<div class="row">
-			
-				<div class="col-md-12">
-					<!-- Contact Form -->
-					<form id="contact-form" class="contact-form mt-6" method="post">
-						
-						<div class="messages"></div>
-						
-						<div class="row">
-							<div class="column col-md-6">
-								<!-- Name input -->
-								<div class="form-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Votre nom" required="required">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-							
-							<div class="column col-md-6">
-								<!-- Email input -->
-								<div class="form-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Adresse email" required="required">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
 
-							<div class="column col-md-12">
-								<!-- Email input -->
-								<div class="form-group">
-									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Objet" required="required">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-					
-							<div class="column col-md-12">
-								<div class="form-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required"></textarea>
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-						</div>
-						<button type="submit" name="submit" id="submit" value="Submit" class="btn bouton">Envoyer</button>
-					</form>
-				</div>
+            <!-- section title -->
+            <div class="row">
 
-			</div>
+                <div class="col-md-12">
+                    <!-- Contact Form -->
+                    <form id="contact-form" class="contact-form mt-6" method="post">
 
-		</div>
+                        <div class="messages"></div>
+
+                        <div class="row">
+                            <div class="column col-md-6">
+                                <!-- Name input -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="InputName" id="InputName"
+                                        placeholder="Votre nom" required="required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="column col-md-6">
+                                <!-- Email input -->
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="InputEmail" name="InputEmail"
+                                        placeholder="Adresse email" required="required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="column col-md-12">
+                                <!-- Email input -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="InputSubject" name="InputSubject"
+                                        placeholder="Objet" required="required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="column col-md-12">
+                                <div class="form-group">
+                                    <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5"
+                                        placeholder="Message" required="required"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" name="submit" id="submit" value="Submit"
+                            class="btn bouton">Envoyer</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
     </section>
 </body>
 <footer>
@@ -218,10 +275,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item px-4">
-                        <a class="nav-link" href="#">© Nolwenn MAUDUIT - 2022</a>
+                        <a class="nav-link">© Nolwenn MAUDUIT - 2022</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" href="#">Mentions légales</a>
+                        <a class="nav-link" onclick="toggleWeird()" href="#">Mentions légales</a>
                     </li>
                 </ul>
             </div>
@@ -229,5 +286,6 @@
     </nav>
 </footer>
 <script src="https://kit.fontawesome.com/5ce47af1ec.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 
 </html>

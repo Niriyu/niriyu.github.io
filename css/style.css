@@ -12,22 +12,25 @@ body {
 }
 
 /* Sections */
-/* .weird {
-    perspective: 0px;
-    transform: rotateX(4deg) rotateY(4deg);
-    transform-style: preserve-3d;
-    filter: blur(0.4px);
-} */
+.weird {
+    filter: blur(2px) saturate(300%);
+    /* transform: skew(10deg, 10deg) scale(0.73, 0.43) translate(-50px, 3px); */
+    background: radial-gradient(#ff000020 0%, #00ff1020 100%);
+    cursor: url('../images/cursor.png'), auto !important;
+    animation-duration: 5s;
+}
 section {
     display: block;
     height: 100%;
     width: 100%;
     padding: 60px;
-    padding-left: 120px;
     box-sizing: border-box;
 }
+.section-timeline {
+    padding-left: 120px !important;
+}
 .footer-section {
-    height: 70% !important;
+    height: 92% !important;
     padding-bottom: 0px !important;
 }
 
@@ -72,6 +75,11 @@ section {
 .mx-80 {
     margin-right: 80px;
     margin-left: 80px;
+}
+
+.mx-100 {
+    margin-right: 100px !important;
+    margin-left: 100px !important;
 }
 
 .mx-120 {
@@ -171,3 +179,8 @@ section {
     padding: 12px 32px !important;
     position: relative !important;
 }
+
+@keyframes example {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+  }
